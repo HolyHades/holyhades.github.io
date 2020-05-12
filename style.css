@@ -30,6 +30,10 @@ body {
     color: #6f80e6;
 }
 
+.mainbody a:hover {
+    color: #9ca6dd;
+}
+
 .side {
     flex: 30%;
     background-color: #32373c;
