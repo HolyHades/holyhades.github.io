@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "Quicksand";
+    color: white;
+    overflow-x: hidden;
+    background-color: #141518;
+}
+
+.title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title h1 {
+    font-size: 64px;
+}
+
+.mainbody {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.mainbody a {
+    color: #6f80e6;
+    text-decoration: none;
+}
+
+.mainbody a:visited {
+    color: #6f80e6;
+}
+
+.side {
+    flex: 30%;
+    background-color: #32373c;
+    padding: 0px 20px;
+    max-width: 160px;
+    min-height: 112px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.main {
+    flex: 70%;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
