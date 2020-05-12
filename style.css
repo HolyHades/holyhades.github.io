@@ -71,7 +71,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 20%;
+    left: 0;
     background-color: #32373c;
     overflow-x: hidden;
     padding-top: 60px;
