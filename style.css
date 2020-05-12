@@ -9,6 +9,8 @@ body {
 .title {
     text-align: center;
     padding: 50px 0;
+    animation-name: slideintop;
+    animation-duration: 1s;
 }
 
 .title h1 {
@@ -37,14 +39,15 @@ body {
 .side {
     flex: 30%;
     background-color: #32373c;
-    padding: 0px 20px;
+    padding: 0 20px;
     max-width: 130px;
-    min-height: 112px;
-    max-height: 112px;
+    height: 112px;
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 8px;
-    transition: 0.1s;
+    transition: 0.2s;
+    animation-name: slideinleft;
+    animation-duration: 1s;
 }
 
 .side:hover {
@@ -117,6 +120,8 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     float: left;
+    animation-name: slideinright;
+    animation-duration: 1s;
 }
 
 .main a {
@@ -125,9 +130,12 @@ body {
 
 .footer {
     text-align: center;
-    position: fixed;
+    clear: both;
+    position: relative;
     bottom: 0;
     width: 100%;
+    animation-name: slideinright;
+    animation-duration: 1s;
 }
 
 @media (orientation: portrait) and (max-width: 500px) {
@@ -151,5 +159,35 @@ body {
     .main {
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@keyframes slideinleft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideintop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideinright {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
     }
 }
