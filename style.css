@@ -13,6 +13,7 @@ body {
 
 .title h1 {
     font-size: 64px;
+    padding-right: 0;
 }
 
 .mainbody {
@@ -54,14 +55,15 @@ body {
     transition: 0.3s;
 }
 
-.openbutton {
+#openbutton {
     color: #6f80e6;
     cursor: pointer;
     display: none;
-    float: right;
+    font-size: 32px;
+    padding-right: 50%;
 }
 
-.openbutton:hover {
+#openbutton:hover {
     color: #9ca6dd;
 }
 
@@ -138,5 +140,9 @@ body {
 
     .openbutton {
         display: block;
+    }
+
+    .title h1{
+        padding-right: 35%;
     }
 }
