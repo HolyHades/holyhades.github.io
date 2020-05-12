@@ -43,35 +43,66 @@ body {
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 8px;
+    transition: 0.3s;
 }
 
 .side:hover {
     box-shadow: 0 1px 6px 0 #32373c;
 }
 
-.barcontainer {
+.side a {
+    transition: 0.3s;
+}
+
+.openbutton {
+    color: #6f80e6;
+    cursor: pointer;
     display: none;
+    float: right;
 }
 
-.bar1 {
-    width: 35px;
-    height: 5px;
-    margin: 6px 0;
+.openbutton:hover {
+    color: #9ca6dd;
+}
+
+.navmenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 20%;
+    background-color: #32373c;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.navmenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
     transition: 0.3s;
 }
 
-.bar2 {
-    width: 35px;
-    height: 5px;
-    margin: 6px 0;
+.navmenu h2 {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
     transition: 0.3s;
 }
 
-.bar3 {
-    width: 35px;
-    height: 5px;
-    margin: 6px 0;
-    transition: 0.3s;
+.navmenu a:hover {
+    color: lightgray;
+}
+
+.navmenu .closebutton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 .main {
@@ -79,6 +110,10 @@ body {
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.main a {
+    transition: 0.3s;
 }
 
 .footer {
@@ -101,7 +136,7 @@ body {
         display: none;
     }
 
-    .barcontainer {
-        display: inline-block;
+    .openbutton {
+        display: block;
     }
 }

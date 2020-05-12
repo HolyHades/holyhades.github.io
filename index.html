@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
     <link rel="shortcut icon" href="https://github.githubassets.com/pinned-octocat.svg">
 </head>
-<body>
+<body id="mainbody">
     <div class="title">
         <h1>Title</h1>
     </div>
     <div class="mainbody">
+        <div class="navmenu" id="navmenu">
+            <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+            <h2 class="sidetext">Other Links</h2>
+            <a href="https://www.manjaro.org" class="sidetext">Manjaro</a>
+        </div>
         <div class="side">
-            <div class="barcontainer">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
             <h2 class="sidetext">Other Links</h2>
             <a href="https://www.manjaro.org" class="sidetext">Manjaro</a>
         </div>
         <div class="main">
+            <h2 onclick="openNav()" class="openbutton">Open Menu</h2>
             <h2>This is a header</h2>
             <p>This is some cool text, maybe put a <a href="https://wikipedia.org">Link</a> in here.</p>
         </div>
@@ -30,5 +31,6 @@
     <div class="footer">
         <p>© 2020, Felix</p>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
