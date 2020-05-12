@@ -122,6 +122,7 @@ body {
     float: left;
     animation-name: slideinright;
     animation-duration: 1s;
+    text-align: center;
 }
 
 .main a {
