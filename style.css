@@ -60,8 +60,9 @@ body {
     display: none;
     font-size: 30px;
     float: left;
-    margin: 19.92px 0;
-    padding-right: 12px;
+    margin-top: 19.92px;
+    margin-bottom: 19.92px;
+    margin-right: 12px;
 }
 
 #openbutton:hover {
