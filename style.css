@@ -156,6 +156,10 @@ body {
         font-size: 32px;
     }
 
+    .mainbody {
+        display: block;
+    }
+
     .side {
         display: none;
     }
