@@ -1,4 +1,4 @@
-User-agent: *
-Allow: /
+user-agent: *
+allow: /
 
 sitemap: https://holyhades.github.io/sitemap.xml
