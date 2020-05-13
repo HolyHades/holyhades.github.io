@@ -73,7 +73,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 2;
     max-width: 240px;
-    max-height: 200px;
+    max-height: 210px;
 }
 
 .side:hover {
@@ -86,6 +86,11 @@ body {
 
 .sidetext {
     line-height: 40px;
+}
+
+.side h2 {
+    margin-block-start: 18px;
+    margin-block-end: 10px;
 }
 
 #openbutton {
@@ -207,7 +212,7 @@ body {
 
 @media (max-width: 1605px) {
     .side {
-        max-height: 240px;
+        max-height: 250px;
     }
 }
 
