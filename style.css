@@ -4,6 +4,7 @@ body {
     color: white;
     overflow-x: hidden;
     background-color: #141518;
+    -webkit-font-smoothing: antialiased;
 }
 
 .title {
@@ -18,9 +19,10 @@ body {
 }
 
 .mainbody {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: row;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr;
