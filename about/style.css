@@ -75,7 +75,7 @@ body {
 }
 
 .side:hover {
-    box-shadow: 0 1px 6px 0 #32373c;
+    box-shadow: 0 0 8px 0 #32373c;
 }
 
 .side a {
