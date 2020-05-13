@@ -65,6 +65,10 @@ body {
     transition: 0.3s;
 }
 
+.sidetext {
+    line-height: 24px;
+}
+
 #openbutton {
     color: #6f80e6;
     cursor: pointer;
@@ -133,6 +137,41 @@ body {
 
 .main a {
     transition: 0.3s;
+}
+
+.sitemap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    line-height: 32px;
+    animation-name: slideinright;
+    animation-duration: 1s;
+}
+
+.sitemap a {
+    color: #6f80e6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sitemap a:visited {
+    color: #6f80e6;
+}
+
+.sitemap a:hover {
+    color: #9ca6dd;
+}
+
+.sitemap ul {
+    list-style-type: none;
+}
+
+.listone {
+    text-align: center;
+}
+
+.listtwo {
+    text-align: center;
 }
 
 .footer {
