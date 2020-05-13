@@ -95,7 +95,7 @@ body {
     color: #6f80e6;
     cursor: pointer;
     display: none;
-    font-size: 24px;
+    font-size: 32px;
     margin-right: 12px;
     transition: 0.3s;
     float: left;
@@ -220,7 +220,7 @@ body {
 
 @media (orientation: portrait) and (max-width: 500px) {
     body {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .title {
@@ -250,7 +250,7 @@ body {
     }
 
     .sitemap {
-        line-height: 24px;
+        line-height: 28px;
     }
 }
 
