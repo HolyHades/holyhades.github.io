@@ -69,7 +69,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 2;
     max-width: 170px;
-    max-height: 150px;
+    max-height: 125px;
 }
 
 .side:hover {
@@ -199,6 +199,12 @@ body {
     width: 100%;
     animation-name: slideinright;
     animation-duration: 1s;
+}
+
+@media (max-width: 1640px) {
+    .side {
+        max-height: 180px;
+    }
 }
 
 @media (orientation: portrait) and (max-width: 500px) {
