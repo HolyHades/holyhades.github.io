@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     background-color: #141518;
     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
 }
 
 ::-webkit-scrollbar {
@@ -28,6 +29,7 @@ body {
 
 .title h1 {
     font-size: 64px;
+    font-weight: 700;
 }
 
 .mainbody {
