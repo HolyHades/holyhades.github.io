@@ -179,6 +179,7 @@ body {
     color: #6f80e6;
     text-decoration: none;
     transition: 0.3s;
+    line-height: 40px;
 }
 
 .sitemap a:visited {
