@@ -146,7 +146,7 @@ body {
     top: 0;
     right: 25px;
     font-size: 64px;
-    margin-left: 50px;
+    padding: 0 26px;
 }
 
 .main {
