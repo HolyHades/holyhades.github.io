@@ -160,7 +160,6 @@ body {
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
-    text-align: center;
 }
 
 .main a {
@@ -169,28 +168,6 @@ body {
 
 .main p {
     color: #cacaca;
-}
-
-.aboutpics {
-    display: grid;
-    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
-    grid-template-rows: 1fr 1fr;
-}
-
-.abouttext {
-    justify-self: center;
-}
-
-#portrait1 {
-    width: 180px;
-    margin: 5px;
-    justify-self: center;
-}
-
-#portrait2 {
-    width: 180px;
-    margin: 5px;
-    justify-self: center;
 }
 
 .sitemap {
@@ -239,7 +216,7 @@ body {
     animation-duration: 1s;
 }
 
-@media (max-width: 1605px) {
+@media (max-width: 1629px) {
     .side {
         max-height: 210px;
         max-width: 150px;
