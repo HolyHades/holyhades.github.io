@@ -188,12 +188,24 @@ body {
     width: 180px;
     margin: 5px;
     justify-self: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#portrait1:hover {
+    box-shadow: 0 0 8px 0 #cacaca;
 }
 
 #portrait2 {
     width: 180px;
     margin: 5px;
     justify-self: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#portrait2:hover {
+    box-shadow: 0 0 8px 0 #cacaca;
 }
 
 .sitemap {
