@@ -71,7 +71,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 2;
     max-width: 240px;
-    max-height: 210px;
+    max-height: 170px;
 }
 
 .side:hover {
@@ -218,7 +218,8 @@ body {
 
 @media (max-width: 1605px) {
     .side {
-        max-height: 250px;
+        max-height: 210px;
+        max-width: 150px;
     }
 }
 
