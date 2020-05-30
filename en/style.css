@@ -169,10 +169,6 @@ body {
     transition: 0.3s;
 }
 
-.main p {
-    color: #cacaca;
-}
-
 .sitemap {
     display: grid;
     grid-template-columns: 1fr 1fr;

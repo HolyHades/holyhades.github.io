@@ -170,10 +170,6 @@ body {
     transition: 0.3s;
 }
 
-.main p {
-    color: #cacaca;
-}
-
 .aboutpics {
     display: grid;
     grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
