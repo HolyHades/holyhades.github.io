@@ -264,8 +264,7 @@ body {
     text-align: right;
 }
 
-.listone p {
-    margin: 0;
+.listone a {
     margin-right: 20px;
 }
 
