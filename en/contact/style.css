@@ -34,10 +34,6 @@ body {
 }
 
 .mainbody {
-    flex-wrap: wrap;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -webkit-flex-direction: row;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr;
@@ -275,9 +271,9 @@ body {
     animation-duration: 1s;
 }
 
-@media (max-width: 850px) {
-    .form input {
-        width: 350px;
+@media (max-width: 1436px) {
+    .side {
+        max-height: 280px;
     }
 }
 

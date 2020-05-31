@@ -34,10 +34,6 @@ body {
 }
 
 .mainbody {
-    flex-wrap: wrap;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -webkit-flex-direction: row;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr;

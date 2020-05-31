@@ -34,10 +34,6 @@ body {
 }
 
 .mainbody {
-    flex-wrap: wrap;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -webkit-flex-direction: row;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr;
@@ -224,6 +220,12 @@ body {
     width: 100%;
     animation-name: slideinright;
     animation-duration: 1s;
+}
+
+@media (max-width: 1436px) {
+    .side {
+        max-height: 280px;
+    }
 }
 
 @media (orientation: portrait) and (max-width: 500px) {
