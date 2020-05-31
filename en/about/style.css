@@ -7,9 +7,6 @@ body {
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
     font-size: 24px;
-    background-image: url("/IMG_9108.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 ::-webkit-scrollbar {
@@ -73,8 +70,8 @@ body {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    max-width: 240px;
-    max-height: 170px;
+    max-width: 208px;
+    max-height: 240px;
 }
 
 .side:hover {
@@ -248,13 +245,6 @@ body {
     width: 100%;
     animation-name: slideinright;
     animation-duration: 1s;
-}
-
-@media (max-width: 1629px) {
-    .side {
-        max-height: 210px;
-        max-width: 150px;
-    }
 }
 
 @media (orientation: portrait) and (max-width: 500px) {

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetersPhotography</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="shortcut icon" href="/aperture.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body id="body">
+    <div class="title">
+        <h1>PetersPhotography</h1>
+    </div>
+    <div class="mainbody">
+        <div class="navmenu" id="navmenu">
+            <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+            <h2 class="sidetext">Site Links</h2>
+            <a href="/en/index.html" class="sidetext">Home<br></a>
+            <a href="/en/gallery/index.html" class="sidetext">Gallery<br></a>
+            <a href="/en/contact/index.html" class="sidetext">Contact<br></a>
+            <a href="/en/about/index.html" class="sidetext">About US</a>
+        </div>
+        <div class="side">
+            <h2 class="sidetext">Site Links</h2>
+            <a href="/en/index.html" class="sidetext">Home<br></a>
+            <a href="/en/gallery/index.html" class="sidetext">Gallery<br></a>
+            <a href="/en/contact/index.html" class="sidetext">Contact<br></a>
+            <a href="/en/about/index.html" class="sidetext">About Us</a>
+        </div>
+        <div class="main">
+            <i onclick="openNav()" class="material-icons" id="openbutton">menu</i>
+            <h2>Kontakt</h2>
+            <form action="holyhades.github.io/form.php" method="POST" class="form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name..." required>
+
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="E-Mail..." required>
+
+                <label for="phone">Phone Number (optional)</label>
+                <input type="text" name="phone" id="phone" placeholder="Phone Number...">
+
+                <label for="message">Message</label>
+                <textarea type="text" name="message" id="message" placeholder="Message..." style="height:200px" required></textarea>
+
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="sitemap">
+        <ul class="listone">
+            <li><a href="/en/index.html">Home</a></li>
+            <li><a href="/en/gallery/index.html">Gallery</a></li>
+            <li><a href="/en/contact/index.html">Contact</a></li>
+            <li><a href="/en/about/index.html">About Us</a></li>
+        </ul>
+        <ul class="listtwo">
+            <li><a href="/en/contact/index.html">English</a></li>
+            <li><a href="/de/contact/index.html">German</a></li>
+        </ul>
+    </div>
+    <footer class="footer">
+        <p>© 2020, Felix Fröhlich</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
