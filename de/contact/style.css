@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Quicksand";
+    font-family: "Comfortaa";
     color: white;
     overflow-x: hidden;
     background-color: #141518;
@@ -181,7 +181,7 @@ body {
     width: 500px;
     border: none;
     font-size: 20px;
-    font-family: "Quicksand";
+    font-family: "Comfortaa";
     margin: 5px 0;
     transition: 0.3s;
 }
@@ -195,7 +195,7 @@ body {
     padding: 12px;
     border: none;
     font-size: 20px;
-    font-family: "Quicksand";
+    font-family: "Comfortaa";
     margin: 5px 0;
     transition: 0.3s;
     resize: none;
