@@ -178,7 +178,7 @@ body {
 }
 
 #portrait1 {
-    width: 180px;
+    max-width: 200px;
     margin: 5px;
     justify-self: center;
     border-radius: 8px;
@@ -190,7 +190,7 @@ body {
 }
 
 #portrait2 {
-    width: 180px;
+    max-width: 200px;
     margin: 5px;
     justify-self: center;
     border-radius: 8px;
@@ -276,6 +276,18 @@ body {
     .main {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .aboutpics {
+        grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+    }
+
+    #portrait1 {
+        max-width: 100px;
+    }
+
+    #portrait2 {
+        max-width: 100px;
     }
 
     .sitemap {
