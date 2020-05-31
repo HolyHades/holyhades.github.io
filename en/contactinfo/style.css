@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    font-family: "Quicksand";
+    color: white;
+    overflow-x: hidden;
+    background-color: #141518;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #32373c;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #141518;
+}
+
+.title {
+    padding: 50px 0;
+    animation-name: slideintop;
+    animation-duration: 1s;
+}
+
+.title img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainbody {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr;
+}
+
+.mainbody a {
+    color: #6f80e6;
+    text-decoration: none;
+}
+
+.mainbody a:visited {
+    color: #6f80e6;
+}
+
+.mainbody a:hover {
+    color: #9ca6dd;
+}
+
+.side {
+    background-color: #32373c;
+    padding: 0 20px 10px 20px;
+    margin: 20px 20px 20px 24px;
+    border-radius: 8px;
+    transition: 0.2s;
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    box-sizing: border-box;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-width: 208px;
+    max-height: 240px;
+}
+
+.side:hover {
+    box-shadow: 0 0 8px 0 #32373c;
+}
+
+.side a {
+    transition: 0.3s;
+}
+
+.sidetext {
+    line-height: 40px;
+}
+
+.side h2 {
+    margin-block-start: 18px;
+    margin-block-end: 10px;
+}
+
+#openbutton {
+    color: #6f80e6;
+    cursor: pointer;
+    display: none;
+    font-size: 32px;
+    margin-right: 12px;
+    transition: 0.3s;
+    float: left;
+}
+
+#openbutton:hover {
+    color: #9ca6dd;
+}
+
+.navmenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #32373c;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.navmenu a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    font-size: 32px;
+    text-align: center;
+}
+
+.navmenu h2 {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    font-size: 3em;
+    text-align: center;
+}
+
+.navmenu a:hover {
+    color: lightgray;
+}
+
+.navmenu .closebutton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 64px;
+    padding: 0 26px;
+}
+
+.main {
+    padding: 0 20px;
+    margin: 20px;
+    margin-left: 0;
+    animation-name: slideinright;
+    animation-duration: 1s;
+    box-sizing: border-box;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.main a {
+    transition: 0.3s;
+}
+
+.sitemap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    line-height: 40px;
+    animation-name: slideinright;
+    animation-duration: 1s;
+}
+
+.sitemap a {
+    color: #6f80e6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sitemap a:visited {
+    color: #6f80e6;
+}
+
+.sitemap a:hover {
+    color: #9ca6dd;
+}
+
+.sitemap ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.listone {
+    text-align: right;
+}
+
+.listone a {
+    margin-right: 20px;
+}
+
+.listtwo {
+    text-align: left;
+}
+
+.listtwo a {
+    margin-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    animation-name: slideinright;
+    animation-duration: 1s;
+}
+
+@media (max-width: 1436px) {
+    .side {
+        max-height: 280px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 500px) {
+    body {
+        font-size: 16px;
+    }
+
+    .title {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .title h1 {
+        font-size: 32px;
+    }
+
+    .mainbody {
+        display: block;
+    }
+
+    .side {
+        display: none;
+    }
+
+    #openbutton {
+        display: block;
+    }
+
+    .main {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: left;
+    }
+
+    .sitemap {
+        line-height: 28px;
+    }
+}
+
+@keyframes slideinleft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideintop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideinright {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
