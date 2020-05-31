@@ -37,10 +37,16 @@
                 <input type="text" name="name" id="name" placeholder="Name..." required>
 
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="E-Mail..." required>
+                <input type="email" name="email" id="email" placeholder="E-Mail..." required>
 
                 <label for="phone">Phone Number (optional)</label>
-                <input type="text" name="phone" id="phone" placeholder="Phone Number...">
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number...">
+
+                <label for="locations">Number of Locations (Portraits only)</label>
+                <input type="text" name="locations" id="locations" placeholder="Number of Locations..." min="1" max="8">
+
+                <label for="peoplecount">Number of People</label>
+                <input type="text" name="peoplecount" id="peoplecount" placeholder="Number of People...">
 
                 <label for="date">Date</label>
                 <input type="date" name="date" id="date">
@@ -58,7 +64,7 @@
     </div>
     <div class="sitemap">
         <ul class="listone">
-            <li><a href="/en/contact/index.html">English</a></li>
+            <li><p>Contact Info<br><a href="mailto:hendrikfelixphotography@gmail.com">E-Mail: hendrikfelixphotography@gmail.com</a><br><a href="tel:+4915750887504">Tel.: +49157/50887504</a></p></li>
         </ul>
         <ul class="listtwo">
             <li><a href="/de/contact/">German</a></li>

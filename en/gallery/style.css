@@ -206,11 +206,20 @@ body {
 }
 
 .listone {
-    text-align: center;
+    text-align: right;
+}
+
+.listone p {
+    margin: 0;
+    margin-right: 20px;
 }
 
 .listtwo {
-    text-align: center;
+    text-align: left;
+}
+
+.listtwo a {
+    margin-left: 20px;
 }
 
 .footer {
