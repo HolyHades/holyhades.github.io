@@ -18,7 +18,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #1c1c1d;
+    background-color: #141518;
 }
 
 .title {
@@ -225,6 +225,12 @@ body {
     color: black;
 }
 
+#calendar {
+    border: solid 1px #777;
+    width: 800px;
+    height: 600px;
+}
+
 .sitemap {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -269,6 +275,13 @@ body {
     width: 100%;
     animation-name: slideinright;
     animation-duration: 1s;
+}
+
+@media (max-width: 1100px) {
+    #calendar {
+        width: 600px;
+        height: 450px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -321,6 +334,10 @@ body {
     #message {
         font-size: 16px;
         height: 150px !important;
+    }
+
+    #calendar {
+        display: none;
     }
 }
 
