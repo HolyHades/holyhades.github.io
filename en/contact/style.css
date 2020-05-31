@@ -216,9 +216,7 @@ body {
     justify-self: center;
     margin-top: 16px;
     cursor: pointer;
-}
-
-#submit {
+    margin-bottom: 20px;
     color: black;
 }
 
