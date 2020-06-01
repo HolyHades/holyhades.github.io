@@ -287,8 +287,7 @@ body {
     }
 
     .gallery {
-        display: flex;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
         margin: 0;
     }
     
