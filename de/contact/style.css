@@ -54,38 +54,52 @@ body {
     color: #9ca6dd;
 }
 
-.side {
+.navcontainer {
+    width: 100%;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
     background-color: #32373c;
-    padding: 0 20px 10px 20px;
-    margin: 20px 20px 20px 24px;
-    border-radius: 8px;
-    transition: 0.2s;
-    animation-name: slideinleft;
-    animation-duration: 1s;
-    box-sizing: border-box;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    max-width: 208px;
-    max-height: 240px;
+    position: sticky;
+    text-align: center;
 }
 
-.side:hover {
-    box-shadow: 0 0 8px 0 #32373c;
+.navbar li {
+    display: inline-block;
+    padding: 16px 0;
 }
 
-.side a {
+.navbar a {
+    color: white;
+    text-decoration: none;
     transition: 0.3s;
 }
 
-.sidetext {
-    line-height: 40px;
+.navbar a:visited {
+    color: white;
 }
 
-.side h2 {
-    margin-block-start: 18px;
-    margin-block-end: 10px;
+.navbar a:hover {
+    color: white;
+    background-color: #141518;
+}
+
+.navtext {
+    padding: 16px 16px;
+    margin: 0;
+}
+
+.navtext a {
+    display: block;
+    text-align: center;
+}
+
+#active {
+    background-color: #141518;
 }
 
 #openbutton {
