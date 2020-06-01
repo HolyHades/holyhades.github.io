@@ -63,7 +63,6 @@ body {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: #32373c;
     position: sticky;
     text-align: center;
 }
@@ -77,6 +76,7 @@ body {
     color: white;
     text-decoration: none;
     transition: 0.3s;
+    border-radius: 8px;
 }
 
 .navbar a:visited {
@@ -85,7 +85,7 @@ body {
 
 .navbar a:hover {
     color: white;
-    background-color: #141518;
+    background-color: #32373c;
 }
 
 .navtext {
@@ -99,7 +99,7 @@ body {
 }
 
 #active {
-    background-color: #141518;
+    background-color: #32373c;
 }
 
 #openbutton {
