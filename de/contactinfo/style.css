@@ -26,13 +26,13 @@ body {
 }
 
 .title {
-    padding: 50px 0;
+    padding: 0;
     animation-name: slideintop;
     animation-duration: 1s;
 }
 
 .title img {
-    width: 250px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -194,8 +194,8 @@ body {
         padding-bottom: 10px;
     }
 
-    .title h1 {
-        font-size: 32px;
+    .title img {
+        width: 250px;
     }
 
     .mainbody {
