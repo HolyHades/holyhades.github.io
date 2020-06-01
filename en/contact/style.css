@@ -200,10 +200,6 @@ body {
     transition: 0.3s;
 }
 
-.form input:hover {
-    box-shadow: 0 0 8px 0 #eeeeee;
-}
-
 #message {
     border-radius: 8px;
     padding: 12px;
@@ -213,10 +209,6 @@ body {
     margin: 5px 0;
     transition: 0.3s;
     resize: none;
-}
-
-#message:hover {
-    box-shadow: 0 0 8px 0 #eeeeee;
 }
 
 #submit {
@@ -236,7 +228,6 @@ body {
 }
 
 #submit:hover {
-    box-shadow: 0 0 8px 0 #eeeeee;
     color: black;
 }
 
