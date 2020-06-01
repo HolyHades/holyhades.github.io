@@ -1,11 +1,3 @@
-function openNav() {
-    document.getElementById("navmenu").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("navmenu").style.width = "0";
-}
-
 function openModal1(){
     var modal = document.getElementById("modal1");
     var modalImg = document.getElementById("image01");
