@@ -180,12 +180,18 @@ body {
 
 .aboutpics {
     display: grid;
-    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.abouttext {
+.abouttext1 {
     justify-self: center;
+    grid-column: 2;
+}
+
+.abouttext2 {
+    justify-self: center;
+    grid-column: 3;
 }
 
 #portrait1 {
@@ -194,6 +200,7 @@ body {
     justify-self: center;
     border-radius: 8px;
     transition: 0.3s;
+    grid-column: 2;
 }
 
 #portrait1:hover {
@@ -206,6 +213,7 @@ body {
     justify-self: center;
     border-radius: 8px;
     transition: 0.3s;
+    grid-column: 3;
 }
 
 #portrait2:hover {
@@ -303,15 +311,26 @@ body {
     }
 
     .aboutpics {
-        grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     #portrait1 {
         max-width: 100px;
+        grid-column: 1;
     }
 
     #portrait2 {
         max-width: 100px;
+        grid-column: 2;
+    }
+
+    .abouttext1 {
+        grid-column: 1;
+    }
+    
+    .abouttext2 {
+        grid-column: 2;
     }
 
     .sitemap {
