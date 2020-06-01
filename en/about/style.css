@@ -106,64 +106,6 @@ body {
     background-color: #32373c;
 }
 
-#openbutton {
-    color: #6f80e6;
-    cursor: pointer;
-    display: none;
-    font-size: 32px;
-    margin-right: 12px;
-    transition: 0.3s;
-    float: left;
-}
-
-#openbutton:hover {
-    color: #9ca6dd;
-}
-
-.navmenu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #32373c;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-    display: inline-block;
-}
-
-.navmenu a {
-    padding: 8px 8px 8px 8px;
-    text-decoration: none;
-    display: block;
-    transition: 0.3s;
-    font-size: 32px;
-    text-align: center;
-}
-
-.navmenu h2 {
-    padding: 8px 8px 8px 8px;
-    text-decoration: none;
-    display: block;
-    transition: 0.3s;
-    font-size: 3em;
-    text-align: center;
-}
-
-.navmenu a:hover {
-    color: lightgray;
-}
-
-.navmenu .closebutton {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 64px;
-    padding: 0 26px;
-}
-
 .main {
     padding: 0 20px;
     margin: 20px;
@@ -298,10 +240,6 @@ body {
 
     .navtext {
         padding: 8px 8px;
-    }
-
-    #openbutton {
-        display: block;
     }
 
     .main {
