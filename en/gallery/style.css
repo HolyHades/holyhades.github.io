@@ -190,7 +190,7 @@ body {
 
 .sitemap {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     line-height: 40px;
     animation-name: slideinright;
@@ -217,7 +217,8 @@ body {
 }
 
 .listone {
-    text-align: right;
+    text-align: center;
+    grid-column: 3;
 }
 
 .listone a {
@@ -225,7 +226,8 @@ body {
 }
 
 .listtwo {
-    text-align: left;
+    text-align: center;
+    grid-column: 4;
 }
 
 .listtwo a {
