@@ -145,10 +145,6 @@ body {
     grid-column: 2;
 }
 
-#portrait1:hover {
-    box-shadow: 0 0 8px 0 #cacaca;
-}
-
 #portrait2 {
     max-width: 200px;
     margin: 5px;
@@ -156,10 +152,6 @@ body {
     border-radius: 8px;
     transition: 0.3s;
     grid-column: 3;
-}
-
-#portrait2:hover {
-    box-shadow: 0 0 8px 0 #cacaca;
 }
 
 .sitemap {
