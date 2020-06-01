@@ -173,9 +173,6 @@ body {
     width: 75%;
     vertical-align: middle;
     border-radius: 8px;
-}
-
-.modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.5s;
 }
