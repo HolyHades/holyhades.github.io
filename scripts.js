@@ -14,8 +14,3 @@ function getURL() {
     document.getElementById("player").src=embedurl;
     video.load();
 }
-
-/*
-https://www.youtube.com/watch?v=vG3gXdU5Y08
-https://www.youtube.com/embed/vG3gXdU5Y08
-*/
