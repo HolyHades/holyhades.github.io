@@ -13,7 +13,6 @@ function getURL() {
     embedurl = url.replace("watch?v=", "embed/");
     document.getElementById("player").src=embedurl;
     video.load();
-    document.getElementById("input").value="";
 }
 
 /*
