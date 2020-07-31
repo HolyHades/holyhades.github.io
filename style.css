@@ -24,3 +24,39 @@ body {
 ::-webkit-scrollbar-track {
     background-color: #141518;
 }
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+.player {
+    text-align: center;
+}
+
+#player {
+    width: 640px;
+    height: 360px;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.switch a {
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 0 12px;
+}
+
+.switch a:hover {
+    background-color: white;
+    color: #141518;
+}

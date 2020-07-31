@@ -10,7 +10,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body id="body">
-    
+    <div class="header">
+        <h1>shitty video player</h1>
+    </div>
+    <div class="player">
+        <iframe id="player" src="https://www.youtube.com/embed/DLX62G4lc44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="switch">
+        <a onclick="vid1()">Video 1</a>
+        <a onclick="vid2()">Video 2</a>
+        <form action="">
+            <label for="input"><input type="text" placeholder="enter url" id="input"></label>
+            <button type="button" onclick="getURL()">submit</button>
+        </form>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
